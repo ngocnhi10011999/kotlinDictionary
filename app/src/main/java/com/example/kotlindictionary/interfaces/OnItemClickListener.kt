@@ -1,4 +1,5 @@
 package com.example.kotlindictionary.interfaces
 
-class OnItemClickListener {
+interface OnItemClickListener {
+    fun onItemClick(position : Int)
 }
